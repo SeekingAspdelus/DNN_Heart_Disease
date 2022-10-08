@@ -243,15 +243,6 @@ Besides the limitations on processing the data we collect, there also exist many
 <img src="figures/Age Influence.jpg" alt="sex" style="zoom:60%;" />
 
 Besides the drawbacks in collecting, choosing, and processing the samples, the insufficiency of the data also results in the lack of precision of data analysis. In “How Training Data Affect the Accuracy and Robustness of Neural Networks for Image Classification”, Lei’s results of the experiment showed that with more training data, accuracy and robustness would improve initially, however, there exists a turning point after which accuracy keeps increasing while robustness starts to decrease (2019). We also did some corresponding experiments to support the idea that we use 100, 500, and 1000 different sample data to analyze them on the accuracy of the model we built. We didn’t look into the robustness of these different data volumes, since we have done the pre-processing of the data set and drop all the dirty data to keep the data set clean and valid. After the experiment, we have adequate evidence to support what Lei argued in their research. In which case, we believe that more data will help get more precise data while this process has a turning point since more data also makes it harder to do the pre-processing and drop the dirty data, it would also be hard for computers to cope with errors during execution.
-
-## 6 Individual Contribution
-
-In the data collecting and preparatory work part, all of us were working on it. We have three ideas initially for the final project topic.
-
-In the building up part of the two models we use, Zesen Zhuang and Jinxuan Zhang worked on it. Zesen Zhuang was in charge of DNN model and Jinxuan Zhang was in charge of the Naïve Bayes. Zesen Zhuang was especially in charge of the cross validation and recursion analysis part.
-
-And in terms of final report writing, all of us were working on the draft writing. Zesen Zhuang worked on the design and implementation, Zexin Lin worked on the Introduction and Background part, and Jinxuan Zhang worked on the Conclusion part. Besides, Zesen Zhuang and Jinxuan Zhang collaborate on the results part.
-
 ## Reference
 
 Lei, S., & Zhang, H. (2019). HOW TRAINING DATA AFFECT THE ACCURACY AND ROBUSTNESS OF NEURAL NETWORKS FOR IMAGE CLASSIFICATION. Retrieved December 15, 2020, from https://openreview.net/pdf?id=HklKWhC5F7
